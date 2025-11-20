@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Private</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style> a { display: flex; margin-top: 10px; margin-bottom: 10px; } a:hover { background: yellow; color: black; }</style>
+</head>
+<body class="bg-blue-900 text-white">
+    <header class="bg-black text-white text-xl p-3">
+        <h1>DATABASE</h1>
+    </header>
+    <div class="flex gap-1 h-219">
+        <div class="flex-1 border p-3">
+            <a id="admin">ADMINS</a>
+            <a href="#">USERS ACCOUNT</a>
+        </div>
+        <div class="flex-1 border p-3">
+            <div id="add-admin"></div>
+            <div id="admins-account"></div>
+        </div>
+        <div class="flex-1 border p-3">
+            <div id="profile"></div>
+        </div>
+    </div>
+<script src="js/admins.js"></script>
+</body>
+</html>

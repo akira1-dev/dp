@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DP - Main</title>
+<!-- React -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<!-- ReactDOM -->
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<!-- Babel (para gumana ang JSX sa browser) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-blue-200">
+<div style="
+position: absolute;
+bottom: 50px;
+right: 20px;
+padding: 5px;
+background: white;
+">
+    <div class="flex gap-5 px-3">
+        <a href="app.html">APP</a>
+        <a href="login.html">LOGIN</a>
+        <a href="register.html">REGISTER</a>
+        <a href="home.html">HOME</a>
+        <h1 class="text-red-500">TEST DEMO</h1>
+    </div>
+</div>
+    <header class="flex justify-between p-3 bg-blue-500">
+        <h1 class="text-2xl text-white">Daily Program</h1>
+        <div class="flex gap-5">
+            <a href="#"><button><i class="fa-regular fa-bell fa-2x text-white"></i></button></a>
+            <a href="#"><button><i class="fa-regular fa-comment fa-2x text-white"></i></button></a>
+            <a href="#"><button><i class="fas fa-user fa-2x text-white"></i></button></a>
+        </div>
+    </header>
+    <div class="h-216" style="overflow-y: auto;">
+        <div id="root"></div>
+    </div>
+
+<script type="text/babel" src="pages/mainreact.js"></script>
+</body>
+</html>
