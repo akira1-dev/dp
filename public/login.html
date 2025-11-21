@@ -5,27 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DP - Login</title>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-blue-200">
-<div style="
-position: absolute;
-bottom: 50px;
-right: 20px;
-padding: 5px;
-background: white;
-">
-    <div class="flex gap-5 px-3">
-        <a href="app.html">APP</a>
-        <a href="login.html">LOGIN</a>
-        <a href="register.html">REGISTER</a>
-        <a href="home.html">HOME</a>
-        <h1 class="text-red-500">TEST DEMO</h1>
-    </div>
-</div>
-
     <div class="bg-blue-200 h-233 flex justify-center items-center">
-        <div class="p-5 bg-white min-w-lg rounded-lg shadow-lg">
+        <div class="p-5 bg-white min-w-lg rounded-lg shadow-lg" data-aos="fade-up">
             <h1 class="text-3xl text-center m-5">Login Account</h1>
             <hr class="m-5" />
             <label>Username</label>
@@ -35,12 +20,23 @@ background: white;
             <input class="border text-2xl p-1 flex outline-none w-full rounded-lg" type="text" id="user-input-password">
             <a class="flex justify-end text-blue-500 underline hover:text-blue-800" href="#">Forget Password</a>
             <br />
+            <p class="text-center" id="login-alert"></p>
+            <br />
             <div class="flex justify-center items-center">
-                <button class="bg-blue-500 w-75 text-2xl p-1 text-white hover:bg-blue-800 rounded-lg shadow-lg">Login</button>
+                <button class="bg-blue-500 w-75 text-2xl p-1 text-white hover:bg-blue-800 rounded-lg shadow-lg" id="login-btn">Login</button>
             </div>
             <br />
             <a class="flex justify-center text-blue-500 underline hover:text-blue-800" href="register.html">Don't have an account?</a>
+            <br />
+            <div class="">
+                <h1><strong>Temporary Account. Test Program</strong></h1>
+                <h1>Username: <strong>test</strong></h1>
+                <h1>Password: <strong>1234</strong></h1>
+            </div>
         </div>
     </div>
+<script src="js/temporyacc.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
