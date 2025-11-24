@@ -7,12 +7,16 @@ loginBtn.addEventListener("click", () => {
     if (userUsernameInput === "test" && userPasswordInput === "1234") {
         loginAlert.innerText = "Successfully Login!";
         loginAlert.style.color = "green";
+        
         loginBtn.disabled = true;
+        loginBtn.style.backgroundColor = "silver";
         loginBtn.innerText = "Wait...";
+        
         setTimeout(() => {
             location.href = "home.html";
         }, 3000);
-    } else {
+    }
+    else {
         loginAlert.innerText = "Valid Input.";
         loginAlert.style.color = "red";
     }

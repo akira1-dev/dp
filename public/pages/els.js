@@ -1,0 +1,31 @@
+function Ls() {
+    return (
+        <div class="p-3">
+    <h1 class="text-3xl">Learning & Skills</h1>
+    <br />
+    <div class="bg-white p-3 rounded-lg shadow-lg" data-aos="zoom-in">
+        <h1 class="text-2xl">Learning Roadmap</h1>
+        <hr /> <br />
+        <h1>No Backend</h1>
+    </div>
+    <br />
+    <div class="bg-white p-3 rounded-lg shadow-lg" data-aos="zoom-in">
+        <h1 class="text-2xl">Skills You're Currently Studying</h1>
+        <hr /> <br />
+        <h1>No Backend</h1>
+    </div> 
+    <br />
+    <div class="bg-white p-3 rounded-lg shadow-lg" data-aos="zoom-in">
+        <h1 class="text-2xl">Long-Term Knowledge Goals</h1>
+        <hr /> <br />
+        <h1>No Backend</h1>
+    </div>
+    <br />
+    <div class="bg-white p-3 rounded-lg shadow-lg" data-aos="zoom-in">
+        <h1 class="text-2xl">Resource Library</h1>
+        <hr /> <br />
+        <h1>No Backend</h1>
+    </div>
+</div>
+    );
+}

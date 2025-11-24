@@ -12,22 +12,30 @@
     <div class="bg-blue-200 h-233 flex justify-center items-center">
         <div class="p-5 bg-white min-w-lg rounded-lg shadow-lg" data-aos="fade-up">
             <h1 class="text-3xl text-center m-5">Register Account</h1>
-            <hr class="m-5" />
-            <label>Username</label>
-            <input class="border text-2xl p-1 flex outline-none w-full rounded-lg" type="text" id="user-username-input">
-            <br />
-            <label>Password</label>
-            <input class="border text-2xl p-1 flex outline-none w-full rounded-lg" type="text" id="user-input-password">
-            <br />
-            <label>Confirm Password</label>
-            <input class="border text-2xl p-1 flex outline-none w-full rounded-lg" type="text" id="user-input-confirm-password">
-            <br />
-            <label></label>
-            <div class="flex justify-center items-center">
-                <button class="bg-blue-500 w-75 text-2xl p-1 text-white hover:bg-blue-800 rounded-lg shadow-lg">Create</button>
-            </div>
-            <br />
-            <a class="flex justify-center text-blue-500 underline hover:text-blue-800" href="login.html">Already have an account? </a>
+            <hr /> <br />
+<form>
+    <label>Username</label>
+    <input class="border text-2xl p-1 flex outline-none w-full rounded-lg" 
+           type="text" id="user-username-input" name="username">
+
+    <br />
+    <label>Password</label>
+    <input class="border text-2xl p-1 flex outline-none w-full rounded-lg"
+           type="password" id="user-input-password" name="password">
+
+    <br />
+    <label>Confirm Password</label>
+    <input class="border text-2xl p-1 flex outline-none w-full rounded-lg"
+           type="password" id="user-input-confirm-password" name="confirm_password">
+
+    <br />
+    <div class="flex justify-center items-center">
+        <button class="bg-blue-500 w-75 text-2xl p-1 text-white hover:bg-blue-800 rounded-lg shadow-lg">
+            Create
+        </button>
+    </div>
+</form>
+            <p class="text-center">Don't have a backend.</p>
         </div>
     </div>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
